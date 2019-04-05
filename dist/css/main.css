@@ -184,8 +184,18 @@ main {
 
 .job {
   background: #515151;
-  padding: 0.5rem;
+  padding: 2rem;
   border-bottom: #5089e5 5px solid; }
+
+a {
+  padding-bottom: 0.6rem; }
+  a:hover {
+    color: #5089e5;
+    transition: all 0.75s ease-out; }
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #5089e5; }
 
 .projects {
   display: grid;
